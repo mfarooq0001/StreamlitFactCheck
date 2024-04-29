@@ -1,0 +1,47 @@
+# Visual Studio files
+.DS_Store
+
+.idea/
+.vs/
+.venv/
+._pycache_/
+.vs/
+*.sln
+*.suo
+*.user
+*.bak
+*.cache
+*.dll
+*.pdb
+*.ipch/
+*.obj
+*.exe
+*.manifest
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.libs
+*.sbr
+*.sdf
+*.opensdf
+*.unsuccessfulbuild
+*.vcxproj.filters
+# Visual Studio code coverage files
+*.coverage
+*.coveragexml
+# ReSharper files
+_ReSharper*/
+# TeamCity files
+_TeamCity*
+# NuGet package management files
+*.nupkg
+__pycache__
