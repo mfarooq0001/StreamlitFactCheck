@@ -1,4 +1,4 @@
-# End-to-End Fake News Detection with FastAPI and Streamlit
+# End-to-End Fake News Detection App with Streamlit and FastAPI
 
 ![Alt Text](Streamlit-UI.PNG)
 
