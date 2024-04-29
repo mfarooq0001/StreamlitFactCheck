@@ -42,7 +42,8 @@ Dataset: [Kaggle](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-
 
 5. **Run the FastAPI Backend**:
 	```bash
-	fastapi_backend > uvicorn api:app --reload
+	cd fastapi_backend
+	uvicorn api:app --reload
 	
 6. **Run the Streamlit Frontend**	
 	```bash
