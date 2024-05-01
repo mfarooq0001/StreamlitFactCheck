@@ -29,9 +29,10 @@ def preprocess_text(text):
     text = ' '.join(text.split())
     return text
 
-def validate_text(text):
-    if not text:
-        raise HTTPException(status_code=400, detail="Text is required")
+# Exception handling
+@app.exception_handler(ValidationError)
+async def validation_exception_handler(request, exc):
+    return JSONResponse(status_code=400, content={"message": "Validation Error", "errors": exc.errors()})
 
 # Predict
 @app.post("/predict")
