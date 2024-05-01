@@ -29,6 +29,11 @@ def preprocess_text(text):
     text = ' '.join(text.split())
     return text
 
+def validate_text(text):
+    if not text:
+        raise HTTPException(status_code=400, detail="Text is required")
+
+# Predict
 @app.post("/predict")
 async def predict(text_request: TextRequest):
     text = text_request.text
@@ -37,3 +42,15 @@ async def predict(text_request: TextRequest):
     prediction = model.predict(tfidf_text)
     print(prediction)
     return {"label": f"{prediction}"}
+
+
+# Documentation
+@app.get("/", response_model=List[str])
+async def read_root():
+    """
+    Welcome to the Fake News Detection API!
+    
+    You can make predictions by sending POST requests to /predict with JSON payload containing 'text'.
+    The API will return the predicted label for the provided text.
+    """
+    return []
