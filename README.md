@@ -4,6 +4,9 @@
 
 This application combines FastAPI and Streamlit to provide a user-friendly interface for detecting fake news using a machine learning model trained on Passive-Aggressive Classifier.
 
+## Problem Statement: 
+In an era where misinformation spreads rapidly through digital platforms, the ability to discern between authentic news articles and fake ones is crucial. This project aims to develop a machine learning model leveraging natural language processing (NLP) techniques to effectively differentiate between genuine and fraudulent news content. By utilizing datasets like the "Fake News Dataset" from Kaggle, the project will involve preprocessing text, extracting relevant features, and implementing classification algorithms. Performance evaluation will be based on metrics such as recall, F1 score, and precision, providing insights into the model's efficacy in detecting fake news articles accurately.
+
 Dataset: [Kaggle](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset)
 
 ## Features
