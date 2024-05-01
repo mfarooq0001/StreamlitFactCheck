@@ -22,7 +22,7 @@ Dataset: [Kaggle](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/mfarooq0001/fake-new-detection-app-using-streamlit-and-fastapi
-   cd fake-news-detection
+   cd fake-new-detection-app-using-streamlit-and-fastapi
 
 2. **Create virtual environment**:
 	```bash
