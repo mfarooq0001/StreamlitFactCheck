@@ -21,7 +21,7 @@ Dataset: [Kaggle](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/fake-news-detection.git
+   git clone https://github.com/mfarooq0001/fake-new-detection-app-using-streamlit-and-fastapi
    cd fake-news-detection
 
 2. **Create virtual environment**:
