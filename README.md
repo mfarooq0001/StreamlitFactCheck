@@ -2,7 +2,7 @@
 
 ![Alt Text](Streamlit-UI.PNG)
 
-This application combines FastAPI and Streamlit to provide a user-friendly interface for detecting fake news using a machine learning model trained on natural language processing techniques.
+This application combines FastAPI and Streamlit to provide a user-friendly interface for detecting fake news using a machine learning model trained on Passive-Aggressive Classifier.
 
 Dataset: [Kaggle](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset)
 
