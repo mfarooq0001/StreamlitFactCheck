@@ -4,6 +4,7 @@ from typing import List
 import joblib
 import re
 import string
+from fastapi.exceptions import RequestValidationError
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 # Load the model
@@ -30,7 +31,7 @@ def preprocess_text(text):
     return text
 
 # Exception handling
-@app.exception_handler(ValidationError)
+@app.exception_handler(RequestValidationError)
 async def validation_exception_handler(request, exc):
     return JSONResponse(status_code=400, content={"message": "Validation Error", "errors": exc.errors()})
 
